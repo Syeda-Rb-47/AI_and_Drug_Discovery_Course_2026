@@ -1,0 +1,4 @@
+Assignment title: Assignment_2_QSAR_Data_Curation_ChEMBL
+Selected target name: Fibroblast growth factor receptor 2 (FGFR2) (ChEMBL Target ID: CHEMBL4142)
+Number of bioactivity records: 4654 (raw), 4625 (pre-processed).
+Short description of the data curation workflow: The data curation workflow involved retrieving FGFR2 (CHEMBL4142) bioactivity records from ChEMBL and filtering the dataset to retain only IC50 measurements for consistency. The raw activity table was then cleaned by removing entries with missing potency values and excluding compounds without valid canonical SMILES. Finally, only the essential QSAR fields (molecule identifier, SMILES, and IC50 values, with activity class labels) were retained and exported as a preprocessed CSV file for downstream descriptor generation and model development.
